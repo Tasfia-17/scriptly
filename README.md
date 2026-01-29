@@ -19,32 +19,32 @@ Built with **Flutter** and powered by a **Serverpod** backend, Scriptly acts as 
 
 Scriptly guides users through the complete storytelling pipeline:
 
-1. ** Start with an idea** - Enter your story concept
-2. ** Generate a script with AI** - GPT-4 powered screenplay generation  
-3. ** Break it into scenes** - Automatic scene management and organization
-4. ** Visualize scenes as storyboards** - Create visual representations
-5. ** Create AI-powered audio** - Generate realistic narration and voices
-6. ** Iterate, revise, and export** - Version control and export options
+1.  **Start with an idea** - Enter your story concept
+2.  **Generate a script with AI** - GPT-4 powered screenplay generation  
+3.  **Break it into scenes** - Automatic scene management and organization
+4.  **Visualize scenes as storyboards** - Create visual representations
+5.  **Create AI-powered audio** - Generate realistic narration and voices
+6.  **Iterate, revise, and export** - Version control and export options
 
 All steps are connected and managed through a single project workspace with real-time synchronization.
 
 ##  Key Features
 
 ### Core Functionality
-- ** AI Script Generation** – Transform ideas into structured screenplays using GPT-4
-- ** Scene Manager** – Automatically split scripts into manageable scenes with drag-and-drop reordering
-- ** Storyboard Builder** – Visualize scenes with AI-generated images and placeholders
-- ** Audiobook & Voice Generation** – Create realistic AI narration with multiple voice options
-- ** AI Chat Assistant** – Real-time writing help, rewriting, and brainstorming in context
-- ** Version History** – Complete script revision tracking and rollback
-- ** Export Options** – Export scripts, audio files, and storyboard assets
+-  **AI Script Generation** – Transform ideas into structured screenplays using GPT-4
+-  **Scene Manager** – Automatically split scripts into manageable scenes with drag-and-drop reordering
+-  **Storyboard Builder** – Visualize scenes with AI-generated images and placeholders
+-  **Audiobook & Voice Generation** – Create realistic AI narration with multiple voice options
+-  **AI Chat Assistant** – Real-time writing help, rewriting, and brainstorming in context
+-  **Version History** – Complete script revision tracking and rollback
+-  **Export Options** – Export scripts, audio files, and storyboard assets
 
 ### Technical Features
-- ** Real-time Sync** – Serverpod-powered backend synchronization
-- ** Cross-platform** – Native iOS and Android apps
-- ** User Authentication** – Secure user accounts and project management
-- ** Cloud Storage** – Persistent project data with PostgreSQL
-- ** High Performance** – Redis caching for fast response times
+-  **Real-time Sync** – Serverpod-powered backend synchronization
+-  **Cross-platform** – Native iOS and Android apps
+-  **User Authentication** – Secure user accounts and project management
+-  **Cloud Storage** – Persistent project data with PostgreSQL
+-  **High Performance** – Redis caching for fast response times
 
 ##  Tech Stack
 
@@ -174,10 +174,10 @@ flutter run
 ```
 
 ### 4. Access the Application
-- ** Flutter App** – Running on your device/emulator
-- ** API Server** – http://localhost:8080
-- ** Admin Dashboard** – http://localhost:8081
-- ** Web Interface** – http://localhost:8082
+- **Flutter App** – Running on your device/emulator
+- **API Server** – http://localhost:8080
+- **Admin Dashboard** – http://localhost:8081
+- **Web Interface** – http://localhost:8082
 
 ##  Core Workflows
 
@@ -253,11 +253,11 @@ flutter build ios --release
 
 The app demonstrates several key integrations:
 
-- ** AI-Powered Content Generation** – Real-time script and outline creation
-- ** Responsive Flutter UI** – Beautiful, intuitive mobile interface  
-- ** Serverpod Backend** – Fast, reliable API responses
-- ** Real-time Sync** – Seamless data synchronization
-- ** Creative Workflow** – End-to-end storytelling pipeline
+- **AI-Powered Content Generation** – Real-time script and outline creation
+- **Responsive Flutter UI** – Beautiful, intuitive mobile interface  
+- **Serverpod Backend** – Fast, reliable API responses
+- **Real-time Sync** – Seamless data synchronization
+- **Creative Workflow** – End-to-end storytelling pipeline
 
 ##  Hackathon Context
 
@@ -270,16 +270,16 @@ This project was built for the **Flutter Butler Hackathon**, celebrating the rel
 ##  Future Improvements
 
 ### Short Term
-- ** Real-time Collaboration** – Multi-user project editing
-- ** Cloud Asset Storage** – Media file management
-- ** Advanced Storyboard Rendering** – Enhanced visual tools
-- ** Voice Cloning** – Custom voice generation
+- **Real-time Collaboration** – Multi-user project editing
+- **Cloud Asset Storage** – Media file management
+- **Advanced Storyboard Rendering** – Enhanced visual tools
+- **Voice Cloning** – Custom voice generation
 
 ### Long Term  
-- ** Publishing Integrations** – Direct export to platforms
-- ** Multi-language Support** – International content creation
-- ** Video Generation** – Animated storyboard creation
-- ** Advanced AI Models** – Specialized creative AI
+- **Publishing Integrations** – Direct export to platforms
+- **Multi-language Support** – International content creation
+- **Video Generation** – Animated storyboard creation
+- **Advanced AI Models** – Specialized creative AI
 
 ##  License
 
