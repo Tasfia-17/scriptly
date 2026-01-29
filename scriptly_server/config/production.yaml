@@ -1,0 +1,30 @@
+# Production configuration
+runmode: production
+serverId: 0
+logLevel: info
+
+api:
+  port: 8080
+
+insights:
+  port: 8081
+
+web:
+  port: 8082
+
+database:
+  host: ${DATABASE_HOST}
+  port: ${DATABASE_PORT}
+  name: ${DATABASE_NAME}
+  user: ${DATABASE_USER}
+  password: ${DATABASE_PASSWORD}
+  requireSsl: true
+  isUnixSocket: false
+
+redis:
+  enabled: true
+  host: ${REDIS_HOST}
+  port: ${REDIS_PORT}
+
+passwords:
+  openai_api_key: ${OPENAI_API_KEY}

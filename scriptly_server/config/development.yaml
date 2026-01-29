@@ -1,0 +1,30 @@
+# Development configuration
+runmode: development
+serverId: 0
+logLevel: info
+
+api:
+  port: 8080
+
+insights:
+  port: 8081
+
+web:
+  port: 8082
+
+database:
+  host: localhost
+  port: 5432
+  name: scriptly_dev
+  user: postgres
+  password: password
+  requireSsl: false
+  isUnixSocket: false
+
+redis:
+  enabled: false
+  host: localhost
+  port: 6379
+
+passwords:
+  openai_api_key: 'your-openai-api-key-here'

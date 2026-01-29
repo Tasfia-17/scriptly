@@ -1,0 +1,11 @@
+class: Scene
+table: scenes
+fields:
+  id: int?, autoIncrement
+  title: String
+  content: String?
+  duration: String?
+  locked: bool, default=false
+  projectId: int, relation(parent=Project, name=projectScenes)
+  order: int, default=0
+  createdAt: DateTime, default=now

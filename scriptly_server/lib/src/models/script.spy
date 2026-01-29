@@ -1,0 +1,8 @@
+class: Script
+table: scripts
+fields:
+  id: int?, autoIncrement
+  content: String
+  version: String, default='v1'
+  projectId: int, relation(parent=Project, name=projectScripts)
+  createdAt: DateTime, default=now

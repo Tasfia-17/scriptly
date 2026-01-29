@@ -1,0 +1,8 @@
+class: ChatMessage
+table: chat_messages
+fields:
+  id: int?, autoIncrement
+  role: String
+  content: String
+  userId: int
+  createdAt: DateTime, default=now

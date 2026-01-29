@@ -1,0 +1,8 @@
+class: User
+table: users
+fields:
+  id: int?, autoIncrement
+  email: String, unique
+  name: String
+  createdAt: DateTime, default=now
+  projects: List&lt;Project&gt;?, relation(name=userProjects)

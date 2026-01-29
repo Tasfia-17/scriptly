@@ -1,0 +1,11 @@
+class: Project
+table: projects
+fields:
+  id: int?, autoIncrement
+  title: String
+  description: String?
+  userId: int, relation(parent=User, name=userProjects)
+  createdAt: DateTime, default=now
+  updatedAt: DateTime, default=now
+  scenes: List&lt;Scene&gt;?, relation(name=projectScenes)
+  scripts: List&lt;Script&gt;?, relation(name=projectScripts)
