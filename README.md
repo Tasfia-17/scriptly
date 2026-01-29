@@ -6,7 +6,7 @@ Scriptly is a mobile-first, AI-powered creative studio that helps creators turn 
 
 Built with **Flutter** and powered by a **Serverpod** backend, Scriptly acts as a digital storytelling assistant, handling generation, organization, and automation so creators can focus on ideas, not busywork.
 
-## 🎥 Demo Video
+##  Demo Video
 
 ![Scriptly Demo](assets/demo_video.gif)
 
@@ -15,38 +15,38 @@ Built with **Flutter** and powered by a **Serverpod** backend, Scriptly acts as 
 ![Main Screen](assets/images/mainscreen.webp)
 *Scriptly's intuitive main interface with creative workflow icons*
 
-## 🚀 What Scriptly Does
+## What Scriptly Does
 
 Scriptly guides users through the complete storytelling pipeline:
 
-1. **💡 Start with an idea** - Enter your story concept
-2. **📝 Generate a script with AI** - GPT-4 powered screenplay generation  
-3. **🎬 Break it into scenes** - Automatic scene management and organization
-4. **🎨 Visualize scenes as storyboards** - Create visual representations
-5. **🎧 Create AI-powered audio** - Generate realistic narration and voices
-6. **🔄 Iterate, revise, and export** - Version control and export options
+1. ** Start with an idea** - Enter your story concept
+2. ** Generate a script with AI** - GPT-4 powered screenplay generation  
+3. ** Break it into scenes** - Automatic scene management and organization
+4. ** Visualize scenes as storyboards** - Create visual representations
+5. ** Create AI-powered audio** - Generate realistic narration and voices
+6. ** Iterate, revise, and export** - Version control and export options
 
 All steps are connected and managed through a single project workspace with real-time synchronization.
 
-## 🧠 Key Features
+##  Key Features
 
 ### Core Functionality
-- **✍️ AI Script Generation** – Transform ideas into structured screenplays using GPT-4
-- **🧩 Scene Manager** – Automatically split scripts into manageable scenes with drag-and-drop reordering
-- **🎨 Storyboard Builder** – Visualize scenes with AI-generated images and placeholders
-- **🎧 Audiobook & Voice Generation** – Create realistic AI narration with multiple voice options
-- **💬 AI Chat Assistant** – Real-time writing help, rewriting, and brainstorming in context
-- **🕘 Version History** – Complete script revision tracking and rollback
-- **📤 Export Options** – Export scripts, audio files, and storyboard assets
+- ** AI Script Generation** – Transform ideas into structured screenplays using GPT-4
+- ** Scene Manager** – Automatically split scripts into manageable scenes with drag-and-drop reordering
+- ** Storyboard Builder** – Visualize scenes with AI-generated images and placeholders
+- ** Audiobook & Voice Generation** – Create realistic AI narration with multiple voice options
+- ** AI Chat Assistant** – Real-time writing help, rewriting, and brainstorming in context
+- ** Version History** – Complete script revision tracking and rollback
+- ** Export Options** – Export scripts, audio files, and storyboard assets
 
 ### Technical Features
-- **🔄 Real-time Sync** – Serverpod-powered backend synchronization
-- **📱 Cross-platform** – Native iOS and Android apps
-- **🔐 User Authentication** – Secure user accounts and project management
-- **☁️ Cloud Storage** – Persistent project data with PostgreSQL
-- **⚡ High Performance** – Redis caching for fast response times
+- ** Real-time Sync** – Serverpod-powered backend synchronization
+- ** Cross-platform** – Native iOS and Android apps
+- ** User Authentication** – Secure user accounts and project management
+- ** Cloud Storage** – Persistent project data with PostgreSQL
+- ** High Performance** – Redis caching for fast response times
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Flutter** – Cross-platform mobile UI framework
@@ -65,7 +65,7 @@ All steps are connected and managed through a single project workspace with real
 - **OpenAI GPT-4** – Chat assistant functionality
 - **Custom AI Pipeline** – Integrated content generation workflow
 
-## 📱 Project Structure
+##  Project Structure
 
 ```
 scriptly/
@@ -111,7 +111,7 @@ scriptly/
 └── start_backend.sh       # Development startup script
 ```
 
-## 🧠 How Serverpod Powers Scriptly
+##  How Serverpod Powers Scriptly
 
 Serverpod serves as the "brain" of Scriptly, providing:
 
@@ -137,7 +137,7 @@ Serverpod serves as the "brain" of Scriptly, providing:
 
 Flutter handles the beautiful, responsive UI while Serverpod manages all the complex backend logic, data persistence, and AI integrations.
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Flutter SDK** (3.0+)
@@ -174,12 +174,12 @@ flutter run
 ```
 
 ### 4. Access the Application
-- **📱 Flutter App** – Running on your device/emulator
-- **🖥️ API Server** – http://localhost:8080
-- **📊 Admin Dashboard** – http://localhost:8081
-- **🌐 Web Interface** – http://localhost:8082
+- ** Flutter App** – Running on your device/emulator
+- ** API Server** – http://localhost:8080
+- ** Admin Dashboard** – http://localhost:8081
+- ** Web Interface** – http://localhost:8082
 
-## 🎯 Core Workflows
+##  Core Workflows
 
 ### Story Creation Workflow
 1. **Idea Input** → User enters story concept
@@ -199,7 +199,7 @@ User Actions → Business Logic → Data Persistence
 State Updates ← API Response ← Query Results
 ```
 
-## 🔧 Development
+##  Development
 
 ### Running Tests
 ```bash
@@ -227,7 +227,7 @@ serverpod create-migration
 serverpod migrate
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Deployment
 ```bash
@@ -249,17 +249,17 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-## 🎥 Demo Features
+##  Demo Features
 
 The app demonstrates several key integrations:
 
-- **🤖 AI-Powered Content Generation** – Real-time script and outline creation
-- **📱 Responsive Flutter UI** – Beautiful, intuitive mobile interface  
-- **⚡ Serverpod Backend** – Fast, reliable API responses
-- **🔄 Real-time Sync** – Seamless data synchronization
-- **🎨 Creative Workflow** – End-to-end storytelling pipeline
+- ** AI-Powered Content Generation** – Real-time script and outline creation
+- ** Responsive Flutter UI** – Beautiful, intuitive mobile interface  
+- ** Serverpod Backend** – Fast, reliable API responses
+- ** Real-time Sync** – Seamless data synchronization
+- ** Creative Workflow** – End-to-end storytelling pipeline
 
-## 🏆 Hackathon Context
+##  Hackathon Context
 
 This project was built for the **Flutter Butler Hackathon**, celebrating the release of Serverpod 3.
 
@@ -267,25 +267,25 @@ This project was built for the **Flutter Butler Hackathon**, celebrating the rel
 
 **Achievement**: A fully functional, production-ready storytelling platform that showcases the power of the Flutter + Serverpod ecosystem.
 
-## 📈 Future Improvements
+##  Future Improvements
 
 ### Short Term
-- **🤝 Real-time Collaboration** – Multi-user project editing
-- **☁️ Cloud Asset Storage** – Media file management
-- **🎨 Advanced Storyboard Rendering** – Enhanced visual tools
-- **🎭 Voice Cloning** – Custom voice generation
+- ** Real-time Collaboration** – Multi-user project editing
+- ** Cloud Asset Storage** – Media file management
+- ** Advanced Storyboard Rendering** – Enhanced visual tools
+- ** Voice Cloning** – Custom voice generation
 
 ### Long Term  
-- **📚 Publishing Integrations** – Direct export to platforms
-- **🌍 Multi-language Support** – International content creation
-- **🎬 Video Generation** – Animated storyboard creation
-- **🤖 Advanced AI Models** – Specialized creative AI
+- ** Publishing Integrations** – Direct export to platforms
+- ** Multi-language Support** – International content creation
+- ** Video Generation** – Animated storyboard creation
+- ** Advanced AI Models** – Specialized creative AI
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -293,13 +293,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Support
 
-- **📧 Email**: support@scriptly.app
-- **🐛 Issues**: [GitHub Issues](https://github.com/yourusername/scriptly/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/yourusername/scriptly/discussions)
-
----
 
 **Built with ❤️ using Flutter & Serverpod**
 
