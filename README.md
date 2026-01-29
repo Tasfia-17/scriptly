@@ -8,9 +8,11 @@ Built with **Flutter** and powered by a **Serverpod** backend, Scriptly acts as 
 
 ## 🎥 Demo Video
 
-https://github.com/user-attachments/assets/demo_video.mp4
+https://github.com/Tasfia-17/scriptly/assets/demo_video.mp4
 
 *Watch Scriptly in action - from idea to complete story in minutes*
+
+> **Note**: If the video doesn't play above, you can [download and view it here](https://github.com/Tasfia-17/scriptly/raw/master/assets/demo_video.mp4)
 
 ![Main Screen](assets/images/mainscreen.webp)
 *Scriptly's intuitive main interface with creative workflow icons*
